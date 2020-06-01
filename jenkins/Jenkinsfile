@@ -1,7 +1,10 @@
 pipeline {
     agent {
         docker {
+	/*
             image 'maven:3-alpine'
+	    */
+            image 'kockopes/builder-java:1.0.0'
         }
     }
     stages {
