@@ -4,7 +4,7 @@ pipeline {
 	/*
             image 'maven:3-alpine'
 	    */
-            image 'kockopes/builder-java:2.0.0'
+            image 'kockopes/builder-java:1.0.0'
         }
     }
     stages {
