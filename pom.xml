@@ -46,7 +46,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>nexus:18081</repository>
+					<repository>nexus:18081/my-app</repository>
 					<tag>${project.version}</tag>
 					<username>admin</username>
 					<password>admin</password>
